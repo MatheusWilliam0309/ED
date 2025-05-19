@@ -1,0 +1,15 @@
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\Struct\16052025\bin\Debug\net9.0\16052025.exe
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\Struct\16052025\bin\Debug\net9.0\16052025.deps.json
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\Struct\16052025\bin\Debug\net9.0\16052025.runtimeconfig.json
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\Struct\16052025\bin\Debug\net9.0\16052025.dll
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\Struct\16052025\bin\Debug\net9.0\16052025.pdb
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\Struct\16052025\obj\Debug\net9.0\16052025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\Struct\16052025\obj\Debug\net9.0\16052025.AssemblyInfoInputs.cache
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\Struct\16052025\obj\Debug\net9.0\16052025.AssemblyInfo.cs
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\Struct\16052025\obj\Debug\net9.0\16052025.csproj.CoreCompileInputs.cache
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\Struct\16052025\obj\Debug\net9.0\16052025.sourcelink.json
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\Struct\16052025\obj\Debug\net9.0\16052025.dll
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\Struct\16052025\obj\Debug\net9.0\refint\16052025.dll
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\Struct\16052025\obj\Debug\net9.0\16052025.pdb
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\Struct\16052025\obj\Debug\net9.0\16052025.genruntimeconfig.cache
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\Struct\16052025\obj\Debug\net9.0\ref\16052025.dll
