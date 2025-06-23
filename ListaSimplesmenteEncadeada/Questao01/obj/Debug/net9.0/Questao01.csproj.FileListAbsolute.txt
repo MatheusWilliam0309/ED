@@ -1,0 +1,15 @@
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\ListaSimplesmenteEncadeada\Questao01\bin\Debug\net9.0\Questao01.exe
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\ListaSimplesmenteEncadeada\Questao01\bin\Debug\net9.0\Questao01.deps.json
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\ListaSimplesmenteEncadeada\Questao01\bin\Debug\net9.0\Questao01.runtimeconfig.json
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\ListaSimplesmenteEncadeada\Questao01\bin\Debug\net9.0\Questao01.dll
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\ListaSimplesmenteEncadeada\Questao01\bin\Debug\net9.0\Questao01.pdb
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\ListaSimplesmenteEncadeada\Questao01\obj\Debug\net9.0\Questao01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\ListaSimplesmenteEncadeada\Questao01\obj\Debug\net9.0\Questao01.AssemblyInfoInputs.cache
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\ListaSimplesmenteEncadeada\Questao01\obj\Debug\net9.0\Questao01.AssemblyInfo.cs
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\ListaSimplesmenteEncadeada\Questao01\obj\Debug\net9.0\Questao01.csproj.CoreCompileInputs.cache
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\ListaSimplesmenteEncadeada\Questao01\obj\Debug\net9.0\Questao01.sourcelink.json
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\ListaSimplesmenteEncadeada\Questao01\obj\Debug\net9.0\Questao01.dll
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\ListaSimplesmenteEncadeada\Questao01\obj\Debug\net9.0\refint\Questao01.dll
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\ListaSimplesmenteEncadeada\Questao01\obj\Debug\net9.0\Questao01.pdb
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\ListaSimplesmenteEncadeada\Questao01\obj\Debug\net9.0\Questao01.genruntimeconfig.cache
+C:\Users\Mathe\OneDrive\Documentos\Faculdade\Estrutura de Dados\ED\ListaSimplesmenteEncadeada\Questao01\obj\Debug\net9.0\ref\Questao01.dll
