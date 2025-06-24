@@ -1,0 +1,16 @@
+Lista Encadeada é uma estrutura de dados linear com uma sequência de elementos chamados Nós, 
+que pode ter de uma ou mais referências (ponteiros) que indica a localização do próximo nó na sequência.
+
+Lista Simplesmente Encadeada é quase a mesma coisa, o que difere é que ele aponta apenas para 
+uma direção: para frente, do início ao fim. E só para até chegar a NULL, ou seja, o final do percurso. Exemplo:
+
++-------+---------+
+| Dado  | proximo | -->
++-------+---------+
+
+Lista Duplamente Encadeada é como a LSE, o que difere é que ele aponta para duas direções, frente e trás,
+o que pode deixar algumas operações mais eficientes.
+
+<-- +----------+-------+---------+ -->
+    | anterior | Dado  | proximo |
+<-- +----------+-------+---------+ -->

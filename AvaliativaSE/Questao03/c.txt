@@ -1,0 +1,74 @@
+Exemplo Ilustrativo: Lista Duplamente Encadeada
+
+Vamos considerar a lista inicial: NULL <- [10] <-> [20] <-> [40] -> NULL
+
+1. Inserção no Meio
+Objetivo: Inserir o nó com valor 30 entre os nós 20 e 40.
+
+- Passo 1: Criar o novo nó.
+Criamos novoNo com o valor 30.
+
+// [anterior=NULL | 30 | proximo=NULL]
+
+- Passo 2: Encontrar o ponto de inserção.
+Identificamos os nós vizinhos à inserção.
+
+// noAnterior = nó 20
+// noSeguinte = nó 40
+
+- Passo 3: Ajustar os ponteiros do novoNo. (2 conexões)
+Fazemos o novoNo apontar para seus vizinhos.
+
+// novoNo.proximo = noSeguinte; (O proximo de 30 aponta para 40)
+// novoNo.anterior = noAnterior; (O anterior de 30 aponta para 20)
+
+Visualmente:
+
+// [20] <- [30] -> [40]
+
+- Passo 4: Ajustar os ponteiros dos vizinhos. (2 conexões)
+Fazemos os vizinhos apontarem para o novoNo.
+
+// noAnterior.proximo = novoNo; (O proximo de 20 agora aponta para 30)
+// noSeguinte.anterior = novoNo; (O anterior de 40 agora aponta para 30)
+
+Resultado Final:
+
+NULL <- [10] <-> [20] <-> [30] <-> [40] -> NULL
+A inserção exige 4 atualizações de ponteiros.
+
+
+2. Remoção no Meio
+Objetivo: Remover o nó com valor 30 da lista.
+
+- Passo 1: Encontrar o nó a ser removido.
+Percorremos a lista e encontramos o noParaRemover (nó 30).
+
+- Passo 2: Identificar os vizinhos.
+A grande vantagem da lista dupla é que podemos encontrar os vizinhos diretamente a partir do nó que queremos remover.
+
+// noAnterior = noParaRemover.anterior; (Será o nó 20)
+// noSeguinte = noParaRemover.proximo; (Será o nó 40)
+
+- Passo 3: "Pular" o nó a ser removido. (2 conexões)
+Refazemos as conexões entre os vizinhos, ignorando o nó 30.
+
+// noAnterior.proximo = noSeguinte; (O proximo de 20 aponta para 40)
+// noSeguinte.anterior = noAnterior; (O anterior de 40 aponta para 20)
+
+Visualmente:
+
+   +----------------------------+
+   |                            V
+... <-> [20]    [30]    [40] <-> ...
+          ^                     |
+          +---------------------+
+
+O nó 30 foi completamente desconectado da lista.
+
+- Passo 4: Finalização.
+O nó 30 está órfão e será liberado da memória.
+
+Resultado Final:
+
+NULL <- [10] <-> [20] <-> [40] -> NULL

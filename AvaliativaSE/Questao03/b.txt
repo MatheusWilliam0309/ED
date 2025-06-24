@@ -1,0 +1,65 @@
+Exemplo Ilustrativo: Lista Simplesmente Encadeada
+
+Vamos considerar a lista inicial: [10] -> [20] -> [40] -> NULL
+
+1. Inserção no Meio
+Objetivo: Inserir o nó com valor 30 entre os nós 20 e 40.
+
+- Passo 1: Criar o novo nó.
+
+Criamos um nó, que chamaremos de novoNo, com o valor 30. Seu ponteiro proximo ainda não aponta para nada.
+
+// [30 | proximo=NULL]
+
+- Passo 2: Encontrar o ponto de inserção.
+Precisamos percorrer a lista para encontrar o nó que virá antes do novoNo. Neste caso, é o nó 20. Vamos chamá-lo de noAnterior.
+
+- Passo 3: Conectar o novoNo à lista.
+O novoNo precisa apontar para o mesmo lugar que o noAnterior (nó 20) apontava, ou seja, para o nó 40.
+
+// novoNo.proximo = noAnterior.proximo;
+
+Visualmente:
+
+// Lista:    [10] -> [20] --+--> [40] -> NULL
+//                          |
+//  novoNo:         [30] ---+
+
+- Passo 4: Conectar a lista ao novoNo.
+Agora, o noAnterior (nó 20) deve deixar de apontar para o nó 40 e passar a apontar para o novoNo (nó 30).
+
+// noAnterior.proximo = novoNo;
+
+Resultado Final:
+
+[10] -> [20] -> [30] -> [40] -> NULL
+
+
+2. Remoção no Meio
+Objetivo: Remover o nó com valor 30 da lista [10] -> [20] -> [30] -> [40] -> NULL.
+
+- Passo 1: Encontrar o nó a ser removido e seu antecessor.
+Percorremos a lista até encontrar o nó 30. Durante essa busca, precisamos guardar uma referência ao seu antecessor, o nó 20.
+
+// noAnterior = nó 20
+// oParaRemover = nó 30
+
+- Passo 2: "Pular" o nó a ser removido.
+A lógica da remoção é fazer com que o ponteiro proximo do noAnterior (nó 20) aponte diretamente para o sucessor do noParaRemover (nó 40).
+
+// noAnterior.proximo = noParaRemover.proximo;
+
+Visualmente:
+
+         +----------------+
+         |                V
+[10] -> [20]    [30] -> [40] -> NULL
+
+O nó 30 agora está "órfão", fora da sequência da lista.
+
+- Passo 3: Finalização.
+O nó 30 não é mais acessível a partir da lista e será eventualmente liberado pelo coletor de lixo do sistema.
+
+Resultado Final:
+
+[10] -> [20] -> [40] -> NULL
